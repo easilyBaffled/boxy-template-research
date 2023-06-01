@@ -4,10 +4,11 @@ import React from "react";
 import Logo from "./Logo";
 
 /**
- * ✨ Try selecting this function and ask questions about it! 👇
+ * This function filters an array to only include even numbers.
+ * @returns {number[]} An array of even numbers.
  */
 function inefficientFunction() {
-  [1, 2, 3, 4, 5, 6].filter((i) => i % 2 === 0);
+  return [1, 2, 3, 4, 5, 6].filter((i) => i % 2 === 0);
 }
 
 const Card: React.FC<{ children: React.ReactNode }> = ({ children }) => {
